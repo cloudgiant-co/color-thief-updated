@@ -1,4 +1,8 @@
-# Color Thief
+# Color Thief Updated
+
+Based on color thief v2.2.5, this simple fork just keeps the canvas version up to date.
+
+Working with node 14+
 
 A script for grabbing the color palette from an image. Uses Javascript and the canvas tag to make it happen.
 
@@ -7,6 +11,7 @@ A script for grabbing the color palette from an image. Uses Javascript and the c
 ## How to use
 
 ### Get the dominant color from an image
+
 ```js
 var colorThief = new ColorThief();
 colorThief.getColor(sourceImage);
@@ -32,32 +37,40 @@ returns [ [num, num, num], [num, num, num], ... ]
 ```
 
 ### Node.js
+
 Install the module via npm
+
 ```bash
 npm install color-thief
 ```
+
 And use it:
+
 ```js
-var ColorThief = require('color-thief');
+var ColorThief = require("color-thief");
 ```
 
 ### Node Tests
+
 Run the node tests via `npm test`
 
 ## Credits and license
 
 ### Author
+
 by Lokesh Dhakar  
 [lokeshdhakar.com](http://www.lokeshdhakar.com)  
 [twitter.com/lokesh](http://twitter.com/lokesh)
 
 ### Thanks
-* Nick Rabinowitz - For creating quantize.js.
-* John Schulz - For clean up and optimization. @JFSIII
-* Nathan Spady - For adding drag and drop support to the demo page.
+
+- Nick Rabinowitz - For creating quantize.js.
+- John Schulz - For clean up and optimization. @JFSIII
+- Nathan Spady - For adding drag and drop support to the demo page.
 
 ### License
+
 Licensed under the [Creative Commons Attribution 2.5 License](http://creativecommons.org/licenses/by/2.5/)
 
-* Free for use in both personal and commercial projects.
-* Attribution requires leaving author name, author homepage link, and the license info intact.
+- Free for use in both personal and commercial projects.
+- Attribution requires leaving author name, author homepage link, and the license info intact.
